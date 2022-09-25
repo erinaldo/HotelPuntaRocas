@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsReporteContador" targetNamespace="http://tempuri.org/DsReporteContador.xsd" xmlns:mstns="http://tempuri.org/DsReporteContador.xsd" xmlns="http://tempuri.org/DsReporteContador.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsReporteContador" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DsReporteContador" msprop:Generator_UserDSName="DsReporteContador">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FechaDe" msprop:Generator_ColumnVarNameInTable="columnFechaDe" msprop:Generator_ColumnPropNameInRow="FechaDe" msprop:Generator_ColumnPropNameInTable="FechaDeColumn" msprop:Generator_UserColumnName="FechaDe" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FechaA" msprop:Generator_ColumnVarNameInTable="columnFechaA" msprop:Generator_ColumnPropNameInRow="FechaA" msprop:Generator_ColumnPropNameInTable="FechaAColumn" msprop:Generator_UserColumnName="FechaA" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="piso" msprop:Generator_ColumnVarNameInTable="columnpiso" msprop:Generator_ColumnPropNameInRow="piso" msprop:Generator_ColumnPropNameInTable="pisoColumn" msprop:Generator_UserColumnName="piso" type="xs:string" minOccurs="0" />
+              <xs:element name="Huesped" msprop:Generator_ColumnVarNameInTable="columnHuesped" msprop:Generator_ColumnPropNameInRow="Huesped" msprop:Generator_ColumnPropNameInTable="HuespedColumn" msprop:Generator_UserColumnName="Huesped" type="xs:string" minOccurs="0" />
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="dni_huesped" msprop:Generator_ColumnVarNameInTable="columndni_huesped" msprop:Generator_ColumnPropNameInRow="dni_huesped" msprop:Generator_ColumnPropNameInTable="dni_huespedColumn" msprop:Generator_UserColumnName="dni_huesped" type="xs:string" minOccurs="0" />
+              <xs:element name="ruc_empresa" msprop:Generator_ColumnVarNameInTable="columnruc_empresa" msprop:Generator_ColumnPropNameInRow="ruc_empresa" msprop:Generator_ColumnPropNameInTable="ruc_empresaColumn" msprop:Generator_UserColumnName="ruc_empresa" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoComprobante" msprop:Generator_ColumnVarNameInTable="columnTipoComprobante" msprop:Generator_ColumnPropNameInRow="TipoComprobante" msprop:Generator_ColumnPropNameInTable="TipoComprobanteColumn" msprop:Generator_UserColumnName="TipoComprobante" type="xs:string" minOccurs="0" />
+              <xs:element name="NComprobante" msprop:Generator_ColumnVarNameInTable="columnNComprobante" msprop:Generator_ColumnPropNameInRow="NComprobante" msprop:Generator_ColumnPropNameInTable="NComprobanteColumn" msprop:Generator_UserColumnName="NComprobante" type="xs:string" minOccurs="0" />
+              <xs:element name="sub_total_liquidacion" msprop:Generator_ColumnVarNameInTable="columnsub_total_liquidacion" msprop:Generator_ColumnPropNameInRow="sub_total_liquidacion" msprop:Generator_ColumnPropNameInTable="sub_total_liquidacionColumn" msprop:Generator_UserColumnName="sub_total_liquidacion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="igv_liquidacion" msprop:Generator_ColumnVarNameInTable="columnigv_liquidacion" msprop:Generator_ColumnPropNameInRow="igv_liquidacion" msprop:Generator_ColumnPropNameInTable="igv_liquidacionColumn" msprop:Generator_UserColumnName="igv_liquidacion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_liquidacion" msprop:Generator_ColumnVarNameInTable="columntotal_liquidacion" msprop:Generator_ColumnPropNameInRow="total_liquidacion" msprop:Generator_ColumnPropNameInTable="total_liquidacionColumn" msprop:Generator_UserColumnName="total_liquidacion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FechaCompara" msprop:Generator_ColumnVarNameInTable="columnFechaCompara" msprop:Generator_ColumnPropNameInRow="FechaCompara" msprop:Generator_ColumnPropNameInTable="FechaComparaColumn" msprop:Generator_UserColumnName="FechaCompara" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ESTADO" msprop:Generator_ColumnVarNameInTable="columnESTADO" msprop:Generator_ColumnPropNameInRow="ESTADO" msprop:Generator_ColumnPropNameInTable="ESTADOColumn" msprop:Generator_UserColumnName="ESTADO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

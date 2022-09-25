@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71299657-7B1F-4F27-A63C-8050E0941AB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controles_Standar</RootNamespace>
+    <AssemblyName>Controles Standar</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auxiliares\FunControles.cs" />
+    <Compile Include="FTextBoxDoubleRequerido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTextBoxDouble.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTextBoxIntRequerido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTextBoxInt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonReporte.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonSalir.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonEditar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonGuardar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonAceptar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonActualizar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonBuscar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonCancelar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonEliminar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonImprimir.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonLimpiar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FButtonNuevo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FCheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FLabelBig.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FLabelMedium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FLabelSmall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FMaskedTextBoxRequerido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTextBoxRequerido.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush_icon&amp;24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\edit.png" />
+    <Content Include="Resources\report.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\shut_down.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

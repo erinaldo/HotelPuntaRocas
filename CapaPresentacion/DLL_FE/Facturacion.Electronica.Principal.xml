@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <electronic name="Certificate_Subject" value="CN=DESKTOP-VLBK410\javil"/>
+  <electronic name="Certificate_LocalMachine" value="true"/>
+  <electronic name="Emisor_NumeroDocumento" value="20380486351"/>
+  <electronic name="Emisor_TipoDocumento" value="6"/>
+  <electronic name="Emisor_RazonSocial" value="HOSPITAL SAN JOSE"/>
+  <electronic name="Emisor_NombreComercial" value="HOSPITAL SAN JOSE"/>
+  <electronic name="Emisor_DomicilioFiscal_UbigeoId" value="070103"/>
+  <electronic name="Emisor_DomicilioFiscal_Direccion" value="JR. LAS MAGNOLIAS NRO. 475 (AV FOUCETT CDRA 4) PROV. CONST. DEL CALLAO - PROV. CONST. DEL CALLAO - CARMEN DE LA LEGUA REYNOSO" />
+  <electronic name="Emisor_DomicilioFiscal_Urbanizacion" value="CARMEN DE LA LEGUA" />
+  <electronic name="Emisor_DomicilioFiscal_Provincia" value="CALLAO" />
+  <electronic name="Emisor_DomicilioFiscal_Departamento" value="CALLAO" />
+  <electronic name="Emisor_DomicilioFiscal_Distrito" value="CARMEN DE LA LEGUA" />
+  <electronic name="Emisor_DomicilioFiscal_CodigoPais" value="PE" />
+  <electronic name="Sunat_UrlWsBill" value="https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService" />
+  <electronic name="Sunat_UrlWsGuia" value="https://e-beta.sunat.gob.pe/ol-ti-itemision-guia-gem-beta/billService" />
+  <electronic name="Sunat_UrlWsOtros" value="https://e-beta.sunat.gob.pe/ol-ti-itemision-otroscpe-gem-beta/billService" />
+  <electronic name="Sunat_UrlWsBillConsult" value="https://www.sunat.gob.pe/ol-it-wsconscpegem/billConsultService" />
+  <electronic name="Sunat_UrlWsBillValid" value="https://www.sunat.gob.pe/ol-it-wsconsvalidcpe/billValidService" />
+  <electronic name="Sunat_Usuario" value="bqLlzeBUF5InDBTuYgWrLvh9mURBb3S3yeE9JxZz3PU=" />
+  <electronic name="Sunat_Password" value="bqLlzeBUF5InDBTuYgWrLvh9mURBb3S3yeE9JxZz3PU=" />
+</configuration>
+
